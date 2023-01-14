@@ -3,7 +3,7 @@
     {
         print_r ($_POST['codigo']);
         print_r ($_POST['descricao']);
-        print_r ($_POST['prco']);
+        print_r ($_POST['preco']);
         print_r ($_POST['categoria']);
     }
 ?>
