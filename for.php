@@ -2,15 +2,15 @@
     if(isset($_POST['submit']))
     {
         print_r ($_POST['codigo']);
-       print_r ($_POST['descricao']);
+        print_r ($_POST['descricao']);
         print_r ($_POST['preco']);
         print_r ($_POST['categoria']);
-    include_once('config.php');
-    $codigo    = $_POST['codigo'];
-    $descricao = $_POST['descricao'];
-    $preco     = $_POST['preco'];
-    $categoria     = $_POST['categoria'];
-    $result = mysqli_query($conexao, "INSERT INTO produtos(codigo,descricao,preco,categoria) 
+        include_once('config.php');
+        $codigo    = $_POST['codigo'];
+        $descricao = $_POST['descricao'];
+        $preco     = $_POST['preco'];
+        $categoria = $_POST['categoria'];
+        $result = mysqli_query($conexao, "INSERT INTO produtos(codigo,descricao,preco,categoria) 
             VALUES ('$codigo','$descricao','$preco','$categoria')"); 
                }
 ?>
