@@ -12,7 +12,7 @@
         $categoria = $_POST['categoria'];
         $result = mysqli_query($conexao, "INSERT INTO produtos(codigo,descricao,preco,categoria) 
             VALUES ('$codigo','$descricao','$preco','$categoria')"); 
-               }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
