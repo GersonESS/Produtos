@@ -90,6 +90,8 @@
     </style>
 </head>
 <body>
+
+<a href="home.php">Voltar</a>
     <div class="box">
         <form action="for.php" method="POST">
             <fieldset>
