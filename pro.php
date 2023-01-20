@@ -93,7 +93,7 @@
 
 <a href="home.php">Voltar</a>
     <div class="box">
-        <form action="for.php" method="POST">
+        <form action="pro.php" method="POST">
             <fieldset>
                 <legend><b>Cadastro De Produtos</b></legend>
                 <br>
